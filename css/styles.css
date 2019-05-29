@@ -1,0 +1,393 @@
+header {
+	font-family: 'Nunito', sans-serif;
+	background-image: url(../images/pattern.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: auto;
+	box-sizing: border-box;
+
+}
+
+.container-fluid a:link {
+	text-decoration: none;
+
+}
+.container-fluid a:visited {
+	text-decoration: none;
+
+}
+
+.container-fluid a:hover {
+	color:  #FB7907;
+
+}
+
+.container-fluid a:active {
+	text-decoration: none;
+
+}
+.container-fluid a{
+	color: #ffba00;
+
+}
+
+
+#logo {
+	width: 95%;
+	height: auto;
+	margin-left: 2.5%;
+	margin-top: 95px;
+}
+
+header h1 {
+	float: right;
+	margin-right: 3.5%;
+	font-size: 2em;
+}
+
+/*dinnerware starts here*/
+.dinnerware.img-fluid.min-width{
+	width: 100%;
+	opacity: 0.5;
+	z-index: 1;
+	float: left;
+
+}
+
+@media (min-width: 576px) {
+    .dinnerware.img-fluid.min-width {
+        width: 66%;
+        height: auto;
+    }
+}
+
+.dinnerware-bg {
+	width: 85%;
+	height: 150px;
+	float: right;
+	background-color: #757475;
+	opacity: 0.8;
+	z-index: 3;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 25%;
+}
+
+@media only screen and (max-width: 900px) {
+    .dinnerware-bg{
+        width: 100%;
+        margin-left: 0%;
+        height: 93px;
+        margin-top: 80px;
+    }
+}
+
+.dinnerware-bg h1 {
+	font-size: 11vw;
+	font-family: 'Nunito', sans-serif;
+	opacity: 1;
+	z-index: 4;
+	color: #ffba00;
+	margin-top: -18px;
+	position: absolute;
+	clear: both;
+	
+} 
+
+@media only screen and (max-width: 450px) {
+    .dinnerware-bg h1{ 
+       font-size: 11vw;
+       margin-top: 5%;
+       margin-left: 20%;
+
+    }
+}
+/*Utensils start here*/
+.utensils.img-fluid.min-width {
+	width: 100%;
+	opacity: 0.5;
+	z-index: 1;
+	float: right;
+}
+
+@media (min-width: 576px) {
+    .utensils.img-fluid.min-width {
+        width: 66%;
+        height: auto;
+    }
+}
+
+.utensils-bg {
+	width: 85%;
+	height: 150px;
+	float: left;
+	background-color: #757475;
+	opacity: 0.8;
+	z-index: 3;
+	position: absolute;
+	margin-top: 15%;
+	margin-right: 25%;
+}
+
+@media only screen and (max-width: 900px) {
+    .utensils-bg{
+        width: 100%;
+        margin-right: 0%;
+        height: 93px;
+        margin-top: 80px;
+    }
+}
+
+.utensils-bg h1 {
+	font-size: 11vw;
+	font-family: 'Nunito', sans-serif;
+	opacity: 1;
+	z-index: 4;
+	color: #ffba00;
+	margin-top: -18px;
+	position: absolute;
+	clear: both;
+	
+} 
+
+@media only screen and (max-width: 450px) {
+    .utensils-bg h1{ 
+       font-size: 11vw;
+       margin-top: 5%;
+       margin-left: 25%;
+
+    }
+}
+
+/*party page starts here*/
+
+.party.img-fluid.min-width{
+	width: 100%;
+	opacity: 0.5;
+	z-index: 1;
+	float: left;
+
+}
+
+@media (min-width: 576px) {
+    .party.img-fluid.min-width {
+        width: 66%;
+        height: auto;
+    }
+}
+
+.party-bg {
+	width: 85%;
+	height: 150px;
+	float: right;
+	background-color: #757475;
+	opacity: 0.8;
+	z-index: 3;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 25%;
+}
+
+@media only screen and (max-width: 900px) {
+    .party-bg{
+        width: 100%;
+        margin-left: 0%;
+        height: 93px;
+        margin-top: 80px;
+    }
+}
+
+.party-bg h1 {
+	font-size: 10vw;
+	font-family: 'Nunito', sans-serif;
+	opacity: 1;
+	z-index: 4;
+	color: #ffba00;
+	margin-top: -28px;
+	position: absolute;
+	clear: both;
+	
+} 
+
+@media only screen and (max-width: 450px) {
+    .party-bg h1{ 
+       font-size: 11vw;
+       margin-top: 5%;
+       margin-left: 32%;
+
+    }
+}
+
+/*About us section starts here*/
+
+.about-us {
+	width: 100%;
+	height: 140px;
+	float: left;
+	background-color: #757475;
+	opacity: 0.8;
+	z-index: 3;
+	margin-top: 30px;
+}
+@media only screen and (max-width: 900px) {
+    .about-us{
+        width: 100%;
+        margin-left: 0%;
+        height: 93px;
+        margin-top: 80px;
+    }
+}
+
+.about-us h1 {
+	font-size: 10vw;
+	font-family: 'Nunito', sans-serif;
+	opacity: 1;
+	z-index: 4;
+	color: #ffba00;
+	margin-top: -20px;
+	margin-left: 25%;
+	position: absolute;
+	clear: both;
+	
+} 
+
+@media only screen and (max-width: 450px) {
+    .about-us h1{ 
+       font-size: 11vw;
+       margin-top: 5%;
+       margin-left: 25%;
+
+    }
+}
+
+.about-copy{
+	float: left;
+	margin: 30px auto;
+
+}
+/*footer starts here*/
+footer {
+	font-family: 'Nunito', sans-serif;
+	background-image: url(../images/pattern-footer.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 450px;
+	box-sizing: border-box;
+}
+
+#foot{
+	margin-left: 25%;
+	padding-top: 200px;
+}
+footer a {
+	text-decoration: none;
+}
+footer a:link {
+	text-decoration: none;
+
+}
+footer a:visited {
+	text-decoration: none;
+
+}
+
+footer a:hover {
+	color:  #FB7907;
+
+}
+
+footer a:active {
+	text-decoration: none;
+
+}
+footer a{
+	color: black;
+
+}
+
+.img-thumbnail {
+	width: 50px;
+	height: auto;
+	margin: 10px;
+}
+
+#social {
+	margin-left: 38%;
+}
+@media only screen and (max-width: 450px) {
+    #social{ 
+       margin-left: 20%;
+
+    }
+}
+
+
+/*Shop page start here*/
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+	font-family: 'Nunito', sans-serif;
+}
+
+
+.card {
+	padding: 10px 10px 10px 10px;
+	background-color: #F9EAD8;
+	margin: 10px 10px 10px 10px;
+}
+
+.card a {
+	text-decoration: none;
+	color: #FF8B00;
+}
+
+/*blog page starts here*/
+
+#blog-content {     
+	margin-left: 10%;
+	margin-right: 5%;    
+	margin-top: 80px; 
+	font-family: 'Nunito', sans-serif;
+
+}
+#blog-content h3,h4, h1 {
+	color: #FF8B00;
+}
+#reviews{
+	padding: 15px;
+	background-color: #F9EAD8;
+	margin-left: 50px;
+/*account page starts here*/
+
+/*#sign-in {
+	margin: 80px auto;
+	background-color: #F9EAD8;
+	padding: 20px 20px;
+}
+*/
+/*contact page start here*/
+
+/*.contact-title {
+	margin: 80px auto;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+.contact-title h1 {
+	color: #FF8C00;
+}*/
+.all-forms /*group of all the elements of contact forms*/{
+	margin: 80px auto;
+	background-color: #F9EAD8;
+	padding: 20px 20px;
+}
+/*#contact-form {
+	margin: 80px auto;
+	font-family: 'Nunito', sans-serif;
+}
+*/	
+#contact-submit {
+	margin: 10px auto;
+}
